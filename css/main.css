@@ -23,7 +23,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .main_nav_list li{margin-right: 49px;}
 
 .main_body{
-    background-image: url('/img/main_banner.png');
+    background-image: url('../img/main_banner.png');
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;
@@ -49,14 +49,14 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .slide_img{height: 240px; width: 370px;}
 .swiper-button-next, .swiper-button-prev { top: 35%;}
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
-    content: url('/img/arrow_right_action.png');
+    content: url('../img/arrow_right_action.png');
 }
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-    content: url('/img/arrow_left_action.png');
+    content: url('../img/arrow_left_action.png');
 }
 .media{
     position: relative;
-    background: #0F1F11 url('/img/back1.png') top left no-repeat;
+    background: #0F1F11 url('../img/back1.png') top left no-repeat;
     padding-top: 247px;
     padding-bottom: 170px;
 }
@@ -79,7 +79,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 }
 .media_info_title .title{
     padding: 37px 250px;
-    background: url('/img/back_title0.png') no-repeat;
+    background: url('../img/back_title0.png') no-repeat;
     border-radius: 0 100px 100px 0;
     max-height: 157px;
     background-size: cover;
@@ -110,7 +110,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .more{background-image: linear-gradient(to bottom, #3E4E23, #46680F); padding-bottom: 30px;}
 .more .title{
     padding: 50px 250px 37px 150px;
-    background: url(/img/back_title1.png) no-repeat;
+    background: url('../img/back_title1.png') no-repeat;
     position: relative;
     background-size: cover;
     margin-top: -13px;
@@ -135,7 +135,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
     padding-bottom: 46px;
     width: 300px;
     text-align: center;
-    background: url('/img/back_block1.png') no-repeat;
+    background: url('../img/back_block1.png') no-repeat;
     background-size: cover;
     position: relative;
     z-index: 10;
@@ -154,7 +154,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 }
 
 .loc_block{
-    background: linear-gradient(to bottom, rgba(151,227,239,0.6) 18%, rgba(67,175,130,0.7) 49%), url('/img/back3.png') top left no-repeat;
+    background: linear-gradient(to bottom, rgba(151,227,239,0.6) 18%, rgba(67,175,130,0.7) 49%), url('../img/back3.png') top left no-repeat;
     padding-top: 168px; margin-top: -100px; padding-bottom: 300px;
     background-size: cover; min-height: 100vh;
     position: relative; }
@@ -181,7 +181,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
     padding: 107px 118px 73px 97px;
     color: #431B09;
     line-height: 1.5;
-    background: url(/img/back_block2.png) center no-repeat;
+    background: url('../img/back_block2.png') center no-repeat;
     background-size: contain;
     width: 313px;
 }
@@ -197,7 +197,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .spirits .title{
     padding: 60px 57px 50px 100px;
     text-align: right;
-    background: url(/img/back_title2.png) no-repeat;
+    background: url('../img/back_title2.png') no-repeat;
     background-size: cover;
     width: 75%;
     position: absolute;
