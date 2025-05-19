@@ -365,7 +365,7 @@ footer a, header a{color: #fff;}
   
 @keyframes bounce {
     100% {
-      transform: translateY(300px);
+      transform: translateY(350px);
     }
 }
 
