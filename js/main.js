@@ -11,4 +11,10 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
+  var rellax = new Rellax('.food_block_paw');
+
+if(document.body.clientWidth < 576){
+    rellax.destroy();
+}
+
   AOS.init();
