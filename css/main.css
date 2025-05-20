@@ -290,7 +290,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .body_block .title{    text-align: center;    margin-bottom: 70px;}
 .body_block_info{position: relative; display: flex; justify-content: space-around; height: 75vh;}
 .lemur_body, .lemur_body_skilet{width: 100%; position: absolute; bottom: 0;}
-.lemur_body:hover{display: none;}
+.lemur_body:hover{opacity: 0; cursor: pointer;}
 .body_block_info_left, .body_block_info_right{
     display: flex;
     height: 70px;
@@ -312,7 +312,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .body_block_info_right .body_name{margin-top: -100px;   margin-left: 20px;}
 .info_arrow_right{   height: 150px;}
 .center{justify-content: center;}
-.body_block_info_content{max-width: 65%; margin-top: 80px;}
+.body_block_info_content{max-width: 65%; margin-top: 100px;}
 .body_block_info_content, .text_paws{display: flex;}
 .text_paws{position: relative; margin-bottom: 100px; align-items: center;}
 .content_text{position: relative; margin-right: 60px;}
