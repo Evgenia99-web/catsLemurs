@@ -32,7 +32,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .main_block{ height: 100vh;}
 .gallery{ color: #fff;
     font-family: 'RussianRail_G_Pro', sans-serif;
-    padding-top: 243px; margin-top: -30px;
+    padding-top: 150px; margin-top: -30px;
     background-image: linear-gradient(to bottom,  #233817, #1C2A10 21%, #0F1F11 56%); 
 }
 .gallery_text{
@@ -46,8 +46,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .gallery_swiper{padding-bottom: 147px; display: flex;
     align-items: center; position: relative; max-width: 80%; margin: 0 auto;}
 .swiper{max-width: 75%;}
-.slide{margin-right: 45px;}
-.slide_img{height: 240px; width: 370px;}
+.slide{text-align: center;}
 .swiper-button-next, .swiper-button-prev { top: 35%;}
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
     content: url('../img/arrow_right_action.png');
@@ -280,17 +279,23 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .second .food_block_info_text{transform: scaleX(-1);}
 .second .food_block_info_text p{transform: scaleX(-1); text-align: right;}
 .banana{margin-right: 0;margin-left: 88px;}
-.body_block{    position: relative;     background-color: #101D12;    padding: 67px 0;}
+.body_block{    position: relative;     background-color: #101D12;    padding: 67px 0; text-align: center;}
 .body_block_back{
     width: 100%;
     max-height: 300px;
     position: absolute;
-    top: -258px;
+    top: -258px;     right: 0;
 }
 .body_block .title{    text-align: center;    margin-bottom: 70px;}
 .body_block_info{position: relative; display: flex; justify-content: space-around; height: 75vh;}
 .lemur_body, .lemur_body_skilet{width: 100%; position: absolute; bottom: 0;}
-.lemur_body:hover{opacity: 0; cursor: pointer;}
+.btn_show{
+    font-family: 'RussianRail_G_Pro', sans-serif;
+    color: #0A1D11; background-color: #8BAE8B;
+    position: relative; width: 200px;
+    border: none; border-radius: 50px;
+    padding: 15px 30px; cursor: pointer;
+}
 .body_block_info_left, .body_block_info_right{
     display: flex;
     height: 70px;
@@ -304,6 +309,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
     margin-right: 20px;
 }
 .size{color: #78907B; font-size: 20px;}
+
 .info_arrow_left, .info_arrow_right{
     width: 285px;
     height: 35px;
@@ -312,7 +318,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .body_block_info_right .body_name{margin-top: -100px;   margin-left: 20px;}
 .info_arrow_right{   height: 150px;}
 .center{justify-content: center;}
-.body_block_info_content{max-width: 65%; margin-top: 100px;}
+.body_block_info_content{max-width: 65%; margin-top: 120px; text-align: left;}
 .body_block_info_content, .text_paws{display: flex;}
 .text_paws{position: relative; margin-bottom: 100px; align-items: center;}
 .content_text{position: relative; margin-right: 60px;}
@@ -341,7 +347,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
 .reproduct_block{   background-color: #93D5ED;    margin-top: -100px;    padding-top: 110px; position: relative;}
 .reproduct_title{display: flex;        align-items: center; margin-bottom: 60px; position: relative; z-index: 5;}
 .tree{max-width: 550px;}
-.reproduct_title_name{margin: 0 60px; max-width: 560px;    text-align: center;}
+.reproduct_title_name{margin: 0 60px; max-width: 560px;}
 .reproduct_title_name .title{color: #021366;    margin-bottom: 60px; letter-spacing: 5px;}
 .lemur_photo{max-width: 150px;    margin-bottom: 20px;}
 .title_info{
@@ -415,7 +421,7 @@ header{padding-top: 25px; font-family: 'RussianRail_G_Pro', sans-serif;}
     padding: 85px 180px 50px 180px;
     text-align: center;
     position: relative;
-    z-index: 5;
+    z-index: 5; height: 400px;
 }
 .enemy_block_content p{margin-bottom: 70px;}
 .enemys{

@@ -72,12 +72,13 @@
                     <img src="img/arrow3.png" alt="левая стрелка" class="info_arrow_left">
                 </div>
                 <img src="img/skilet_lemur.png" alt="скелет лемура" class="lemur_body_skilet">
-                <img src="img/lumur_on_lian.png" alt="лемур" class="lemur_body">
+                <img src="img/lumur_on_lian.png" alt="лемур" class="lemur_body" id="lemur">
                 <div class="body_block_info_right">
                     <img src="img/arrow4.png" alt="правая стрелка" class="info_arrow_right">
                     <p class="body_name">ТЕЛО <br> <span class="size">39 - 46 см</span></p>
                 </div>
             </div>
+            <button class="btn_show" id="btn" onclick="toggle_visibility('lemur');"><span>Показать скелет</span></button>
             <div class="body_block_info center">
                 <img src="img/lian_left.png" alt="левая лиана" class="lian_left">
                 <div class="body_block_info_content">
@@ -92,7 +93,7 @@
                             </div>
                         </div>
                         <p class="text_lemur">Длинный хвост служит кошачьим лемурам для сигналов между сородичами, 
-                            в качестве распространителя запахов, а также для поддержания баланса при лазании и прыгании.</p>
+                            в качестве распространителя запахов, а также <br>для поддержания баланса при лазании и прыгании.</p>
                         <img src="img/arrow2.png" alt="нижняя стрелка на лемура" class="lemur_arrow_bottom">
                     </div>
                     <img src="img/lemur_sitdown.png" alt="лемур сидит" class="lemur_sitting">
@@ -113,15 +114,15 @@
                     <li class="footer_nav_list_item">
                         <a href="index.html" class="footer_nav_list_item_link">Главная</a>
                         <ul class="footer_nav_list_item_list">
-                            <li class="footer_nav_list_item_list_item"><a href="index.html#media" class="footer_nav_list_item_link">Медиа культура</a></li>
-                            <li class="footer_nav_list_item_list_item"><a href="index.html#more" class="footer_nav_list_item_link">Узнать больше</a></li>
+                            <li class="footer_nav_list_item_list_item"><a href="#media" class="footer_nav_list_item_link">Медиа культура</a></li>
+                            <li class="footer_nav_list_item_list_item"><a href="#more" class="footer_nav_list_item_link">Узнать больше</a></li>
                         </ul>
                     </li>
                     <li class="footer_nav_list_item">
                         <a href="location.html" class="footer_nav_list_item_link">Ареал обитания</a>
                         <ul class="footer_nav_list_item_list">
                             <li class="footer_nav_list_item_list_item"><a href="location.html#location" class="footer_nav_list_item_link">Где живут лемуры</a></li>
-                            <li class="footer_nav_list_item_list_item"><a href="location.html#spirits" class="footer_nav_list_item_link">Мадагаскарские приведения</a></li>
+                            <li class="footer_nav_list_item_list_item"><a href="location.html#spirits" class="footer_nav_list_item_link">Мадагаскарские привидения</a></li>
                         </ul>
                     </li>
                     <li class="footer_nav_list_item">
@@ -149,6 +150,7 @@
             </div>
         </div>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/aos.js"></script>
